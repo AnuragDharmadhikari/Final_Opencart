@@ -1,16 +1,9 @@
-C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\pageObjects\AccountRegistrationPage.java
 C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\pageObjects\BasePage.java
 C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\pageObjects\CarInsurancePage.java
 C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\pageObjects\Final_Policy_Page.java
-C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\pageObjects\HomePage.java
-C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\pageObjects\LoginPage.java
-C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\pageObjects\MyAccountPage.java
 C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\pageObjects\Policybazzar_mainpg.java
 C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\pageObjects\Travel_Insurance_Page.java
 C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\testBase\BaseClass.java
-C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\testCases\TC001_AccountRegistrationTest.java
-C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\testCases\TC_002_LoginTest.java
-C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\testCases\TC_003_LoginDDT.java
 C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\testCases\TC_01_ListOfHealthInsurances.java
 C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\testCases\TC_02_StudentPolicyTest.java
 C:\Users\2355163\eclipse-workspace\FinalProject\src\test\java\testCases\TC_03_TestingCarInsuranceErrorMsg.java

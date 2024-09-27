@@ -1,28 +1,29 @@
-2024-09-27 00:21:58 INFO  TC_01_ListOfHealthInsurances:14 - **** Starting TC_01_ListOfHealthInsurances *****
-2024-09-27 00:21:59 INFO  TC_01_ListOfHealthInsurances:27 - **** TC_01_ListOfHealthInsurances *****
-2024-09-27 00:40:27 INFO  TC_01_ListOfHealthInsurances:14 - **** Starting TC_01_ListOfHealthInsurances *****
-2024-09-27 00:40:28 INFO  TC_01_ListOfHealthInsurances:27 - **** TC_01_ListOfHealthInsurances *****
-2024-09-27 10:21:46 INFO  TC_01_ListOfHealthInsurances:14 - **** Starting TC_01_ListOfHealthInsurances *****
-2024-09-27 10:21:47 INFO  TC_01_ListOfHealthInsurances:27 - **** TC_01_ListOfHealthInsurances *****
-2024-09-27 10:22:53 INFO  TC_01_ListOfHealthInsurances:14 - **** Starting TC_01_ListOfHealthInsurances *****
-2024-09-27 10:22:53 INFO  TC_01_ListOfHealthInsurances:27 - **** TC_01_ListOfHealthInsurances *****
-2024-09-27 10:32:44 INFO  TC_01_ListOfHealthInsurances:14 - **** Starting TC_01_ListOfHealthInsurances *****
-2024-09-27 10:32:44 INFO  TC_01_ListOfHealthInsurances:27 - **** TC_01_ListOfHealthInsurances *****
-2024-09-27 10:34:06 INFO  TC_01_ListOfHealthInsurances:14 - **** Starting TC_01_ListOfHealthInsurances *****
-2024-09-27 10:34:07 INFO  TC_01_ListOfHealthInsurances:27 - **** TC_01_ListOfHealthInsurances *****
-2024-09-27 11:46:31 INFO  TC_03_TestingCarInsuranceErrorMsg:13 - **** TC_03_TestingCarInsuranceErrorMsg *****
-2024-09-27 11:46:31 INFO  TC_03_TestingCarInsuranceErrorMsg:15 - policybazzar main page 
-2024-09-27 11:46:31 INFO  TC_03_TestingCarInsuranceErrorMsg:19 - CarInsurance main page 
-2024-09-27 11:48:48 INFO  TC_03_TestingCarInsuranceErrorMsg:13 - **** TC_03_TestingCarInsuranceErrorMsg *****
-2024-09-27 11:48:48 INFO  TC_03_TestingCarInsuranceErrorMsg:15 - policybazzar main page 
-2024-09-27 11:48:48 INFO  TC_03_TestingCarInsuranceErrorMsg:19 - CarInsurance main page 
-2024-09-27 11:50:29 INFO  TC_03_TestingCarInsuranceErrorMsg:13 - **** TC_03_TestingCarInsuranceErrorMsg *****
-2024-09-27 11:50:29 INFO  TC_03_TestingCarInsuranceErrorMsg:15 - policybazzar main page 
-2024-09-27 11:50:29 INFO  TC_03_TestingCarInsuranceErrorMsg:19 - CarInsurance main page 
-2024-09-27 11:50:34 INFO  TC_03_TestingCarInsuranceErrorMsg:34 - **** Finished TC_03_TestingCarInsuranceErrorMsg *****
-2024-09-27 11:51:35 INFO  TC_01_ListOfHealthInsurances:14 - **** Starting TC_01_ListOfHealthInsurances *****
-2024-09-27 11:51:35 INFO  TC_01_ListOfHealthInsurances:27 - **** TC_01_ListOfHealthInsurances *****
-2024-09-27 11:51:46 INFO  TC_03_TestingCarInsuranceErrorMsg:13 - **** TC_03_TestingCarInsuranceErrorMsg *****
-2024-09-27 11:51:46 INFO  TC_03_TestingCarInsuranceErrorMsg:15 - policybazzar main page 
-2024-09-27 11:51:47 INFO  TC_03_TestingCarInsuranceErrorMsg:19 - CarInsurance main page 
-2024-09-27 11:51:51 INFO  TC_03_TestingCarInsuranceErrorMsg:34 - **** Finished TC_03_TestingCarInsuranceErrorMsg *****
+2024-09-27 14:07:03 INFO  TC_01_ListOfHealthInsurances:14 - **** Starting TC_01_ListOfHealthInsurances *****
+2024-09-27 14:07:04 INFO  TC_01_ListOfHealthInsurances:27 - **** TC_01_ListOfHealthInsurances *****
+2024-09-27 14:07:16 INFO  TC_03_TestingCarInsuranceErrorMsg:13 - **** TC_03_TestingCarInsuranceErrorMsg *****
+2024-09-27 14:07:16 INFO  TC_03_TestingCarInsuranceErrorMsg:15 - policybazzar main page 
+2024-09-27 14:07:17 INFO  TC_03_TestingCarInsuranceErrorMsg:19 - CarInsurance main page 
+2024-09-27 14:09:54 INFO  TC_01_ListOfHealthInsurances:14 - **** Starting TC_01_ListOfHealthInsurances *****
+2024-09-27 14:09:55 INFO  TC_01_ListOfHealthInsurances:27 - **** TC_01_ListOfHealthInsurances *****
+2024-09-27 14:10:10 INFO  TC_03_TestingCarInsuranceErrorMsg:13 - **** TC_03_TestingCarInsuranceErrorMsg *****
+2024-09-27 14:10:10 INFO  TC_03_TestingCarInsuranceErrorMsg:15 - policybazzar main page 
+2024-09-27 14:10:11 INFO  TC_03_TestingCarInsuranceErrorMsg:19 - CarInsurance main page 
+2024-09-27 14:13:47 INFO  TC_03_TestingCarInsuranceErrorMsg:13 - **** TC_03_TestingCarInsuranceErrorMsg *****
+2024-09-27 14:13:47 INFO  TC_03_TestingCarInsuranceErrorMsg:15 - policybazzar main page 
+2024-09-27 14:13:47 INFO  TC_03_TestingCarInsuranceErrorMsg:19 - CarInsurance main page 
+2024-09-27 14:18:46 INFO  TC_03_TestingCarInsuranceErrorMsg:13 - **** TC_03_TestingCarInsuranceErrorMsg *****
+2024-09-27 14:18:46 INFO  TC_03_TestingCarInsuranceErrorMsg:15 - policybazzar main page 
+2024-09-27 14:18:47 INFO  TC_03_TestingCarInsuranceErrorMsg:19 - CarInsurance main page 
+2024-09-27 14:28:36 INFO  TC_03_TestingCarInsuranceErrorMsg:13 - **** TC_03_TestingCarInsuranceErrorMsg *****
+2024-09-27 14:28:36 INFO  TC_03_TestingCarInsuranceErrorMsg:15 - policybazzar main page 
+2024-09-27 14:28:38 INFO  TC_03_TestingCarInsuranceErrorMsg:19 - CarInsurance main page 
+2024-09-27 14:29:25 INFO  TC_03_TestingCarInsuranceErrorMsg:13 - **** TC_03_TestingCarInsuranceErrorMsg *****
+2024-09-27 14:29:25 INFO  TC_03_TestingCarInsuranceErrorMsg:15 - policybazzar main page 
+2024-09-27 14:29:26 INFO  TC_03_TestingCarInsuranceErrorMsg:19 - CarInsurance main page 
+2024-09-27 14:29:32 INFO  TC_03_TestingCarInsuranceErrorMsg:35 - **** Finished TC_03_TestingCarInsuranceErrorMsg *****
+2024-09-27 14:30:40 INFO  TC_01_ListOfHealthInsurances:14 - **** Starting TC_01_ListOfHealthInsurances *****
+2024-09-27 14:30:41 INFO  TC_01_ListOfHealthInsurances:27 - **** TC_01_ListOfHealthInsurances *****
+2024-09-27 14:30:56 INFO  TC_03_TestingCarInsuranceErrorMsg:13 - **** TC_03_TestingCarInsuranceErrorMsg *****
+2024-09-27 14:30:56 INFO  TC_03_TestingCarInsuranceErrorMsg:15 - policybazzar main page 
+2024-09-27 14:30:57 INFO  TC_03_TestingCarInsuranceErrorMsg:19 - CarInsurance main page 
+2024-09-27 14:31:04 INFO  TC_03_TestingCarInsuranceErrorMsg:35 - **** Finished TC_03_TestingCarInsuranceErrorMsg *****

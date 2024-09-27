@@ -30,6 +30,7 @@ public class TC_03_TestingCarInsuranceErrorMsg extends BaseClass{
 		car.send_name();
 		car.enter_mobileNo();
 		car.printErrMsgs();
+
 		
 		logger.info("**** Finished TC_03_TestingCarInsuranceErrorMsg *****");
 		

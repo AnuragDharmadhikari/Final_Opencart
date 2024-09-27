@@ -45,6 +45,9 @@ public class CarInsurancePage extends BasePage{
 	@FindBy(xpath="//div[@class='errorMsg']")
 	List<WebElement> errMsgs;
 	
+	@FindBy(xpath="//button[@class='primaryBtnV2 width-100']")
+	WebElement FindPlanBtn;
+	
 	public void clickHereBtn() {
 		clickHere.click();
 	}
@@ -81,14 +84,22 @@ public class CarInsurancePage extends BasePage{
 		name_Bar.sendKeys("@");
 	}
 	
+	
+	
 	public void enter_mobileNo() {
 		mobile_bar.sendKeys("Anurag");
 	}
+	
+
 	
 	public void printErrMsgs() {
 		for(WebElement x:errMsgs) {
 			System.out.println(x.getText()); 
 		}
+	}
+	
+	public void clickFindPlan() {
+		FindPlanBtn.click();;
 	}
 
 }
