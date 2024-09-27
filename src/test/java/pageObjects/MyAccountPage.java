@@ -16,6 +16,9 @@ public class MyAccountPage extends BasePage {
 	@FindBy(xpath = "//div[@class='list-group']//a[text()='Logout']")
 	WebElement lnkLogout;
 	
+	@FindBy(xpath="//div[@class='prd-block car']//div[@class='shadowHandlerBox']")
+	WebElement carInsuranceLnk;
+	
 
 	public boolean isMyAccountPageExists()   // MyAccount Page heading display status
 	{

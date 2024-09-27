@@ -19,6 +19,9 @@ public class Policybazzar_mainpg extends BasePage{
 	@FindBy(xpath="/html/body/div[4]/div[2]/div/ul/li[2]/div/div/div[3]//a[contains(@onclick,'Health Insurance') and @itemprop='url']")
 	List<WebElement> ListOfInsurances;
 	
+	@FindBy(xpath="//div[@class='prd-block car']//div[@class='shadowHandlerBox']")
+	WebElement carInsuranceBtn;
+	
 	public void hover_over() {
 		Actions act = new Actions(driver);
 		act.moveToElement(InsuranceDrpdown).perform();
@@ -29,6 +32,10 @@ public class Policybazzar_mainpg extends BasePage{
 		for(WebElement x: ListOfInsurances) {
 			System.out.println(x.getText());
 		}
+	}
+	
+	public void carInsuranceBtnClick() {
+		carInsuranceBtn.click();
 	}
 	
 	
