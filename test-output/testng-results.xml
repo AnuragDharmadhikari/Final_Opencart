@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-27T14:18:33 IST" name="Suite" finished-at="2024-09-27T14:18:53 IST" duration-ms="19401">
+  <suite started-at="2024-09-27T15:37:28 IST" name="Suite" finished-at="2024-09-27T15:37:45 IST" duration-ms="17018">
     <groups>
     </groups>
-    <test started-at="2024-09-27T14:18:33 IST" name="Test" finished-at="2024-09-27T14:18:53 IST" duration-ms="19401">
+    <test started-at="2024-09-27T15:37:28 IST" name="Test" finished-at="2024-09-27T15:37:45 IST" duration-ms="17018">
       <class name="testCases.TC_03_TestingCarInsuranceErrorMsg">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@10163d6]" started-at="2024-09-27T14:18:34 IST" name="setup" finished-at="2024-09-27T14:18:46 IST" duration-ms="12461" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@10163d6]" started-at="2024-09-27T15:37:28 IST" name="setup" finished-at="2024-09-27T15:37:38 IST" duration-ms="9840" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,82 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkErrMsg()[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@10163d6]" started-at="2024-09-27T14:18:46 IST" name="checkErrMsg" finished-at="2024-09-27T14:18:49 IST" duration-ms="3180" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: stale element not found in the current frame
-  (Session info: chrome=125.0.6422.142)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [abb687aaa60a2b8572f3d1ffc0eea4bf, sendKeysToElement {id=f.B718D8A5777C22CF0FF4B84DFDBEF9AE.d.10095C6EE2DC5F5E21975F19075CB4D1.e.137, value=[Ljava.lang.CharSequence;@23382f76}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55095}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55095/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (abb687aaa60a2b8572f3d1ffc0eea4bf)] -> xpath: //input[@class='form-control' and @name='searchTerm']]
-Session ID: abb687aaa60a2b8572f3d1ffc0eea4bf]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: chrome=125.0.6422.142)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [abb687aaa60a2b8572f3d1ffc0eea4bf, sendKeysToElement {id=f.B718D8A5777C22CF0FF4B84DFDBEF9AE.d.10095C6EE2DC5F5E21975F19075CB4D1.e.137, value=[Ljava.lang.CharSequence;@23382f76}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55095}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55095/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (abb687aaa60a2b8572f3d1ffc0eea4bf)] -> xpath: //input[@class='form-control' and @name='searchTerm']]
-Session ID: abb687aaa60a2b8572f3d1ffc0eea4bf
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
-at pageObjects.CarInsurancePage.Search_City_Rto(CarInsurancePage.java:56)
-at testCases.TC_03_TestingCarInsuranceErrorMsg.checkErrMsg(TC_03_TestingCarInsuranceErrorMsg.java:23)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+        <test-method signature="checkErrMsg()[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@10163d6]" started-at="2024-09-27T15:37:38 IST" name="checkErrMsg" finished-at="2024-09-27T15:37:42 IST" duration-ms="4185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkErrMsg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@10163d6]" started-at="2024-09-27T14:18:50 IST" name="tearDown" finished-at="2024-09-27T14:18:53 IST" duration-ms="2907" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@10163d6]" started-at="2024-09-27T15:37:42 IST" name="tearDown" finished-at="2024-09-27T15:37:45 IST" duration-ms="2771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

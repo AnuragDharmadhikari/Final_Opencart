@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-27T14:30:27 IST" name="Suite" finished-at="2024-09-27T14:31:08 IST" duration-ms="40934">
+  <suite started-at="2024-09-27T15:50:36 IST" name="Suite" finished-at="2024-09-27T15:51:22 IST" duration-ms="45739">
     <groups>
     </groups>
-    <test started-at="2024-09-27T14:30:27 IST" name="Test" finished-at="2024-09-27T14:31:08 IST" duration-ms="40934">
+    <test started-at="2024-09-27T15:50:36 IST" name="Test" finished-at="2024-09-27T15:51:22 IST" duration-ms="45739">
       <class name="testCases.TC_03_TestingCarInsuranceErrorMsg">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@65b3f4a4]" started-at="2024-09-27T14:30:44 IST" name="setup" finished-at="2024-09-27T14:30:56 IST" duration-ms="11828" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@7c83dc97]" started-at="2024-09-27T15:50:36 IST" name="setup" finished-at="2024-09-27T15:51:14 IST" duration-ms="38025" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,41 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkErrMsg()[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@65b3f4a4]" started-at="2024-09-27T14:30:56 IST" name="checkErrMsg" finished-at="2024-09-27T14:31:04 IST" duration-ms="7702" status="PASS">
+        <test-method signature="checkErrMsg()[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@7c83dc97]" started-at="2024-09-27T15:51:14 IST" name="checkErrMsg" finished-at="2024-09-27T15:51:19 IST" duration-ms="4908" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkErrMsg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@65b3f4a4]" started-at="2024-09-27T14:31:04 IST" name="tearDown" finished-at="2024-09-27T14:31:08 IST" duration-ms="3798" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@7c83dc97]" started-at="2024-09-27T15:51:19 IST" name="tearDown" finished-at="2024-09-27T15:51:22 IST" duration-ms="2620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_03_TestingCarInsuranceErrorMsg -->
-      <class name="testCases.TC_01_ListOfHealthInsurances">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_01_ListOfHealthInsurances@740773a3]" started-at="2024-09-27T14:30:27 IST" name="setup" finished-at="2024-09-27T14:30:40 IST" duration-ms="12467" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="HealthInsListPrint()[pri:0, instance:testCases.TC_01_ListOfHealthInsurances@740773a3]" started-at="2024-09-27T14:30:40 IST" name="HealthInsListPrint" finished-at="2024-09-27T14:30:41 IST" duration-ms="1022" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HealthInsListPrint -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_01_ListOfHealthInsurances@740773a3]" started-at="2024-09-27T14:30:41 IST" name="tearDown" finished-at="2024-09-27T14:30:44 IST" duration-ms="3525" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_01_ListOfHealthInsurances -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -17,6 +17,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -31,6 +32,7 @@ import org.apache.logging.log4j.Logger;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
+
 public class BaseClass {
 
 	public static WebDriver driver;
@@ -41,6 +43,11 @@ public class BaseClass {
 	@Parameters({"os", "browser"})
 	public void setup(String os, String br) throws IOException
 	{
+		
+//		//Adding chrome options
+//		
+//		ChromeOptions opt = new ChromeOptions();
+//		opt.addArguments("--disable-blink-features=AutomationControlled");
 		
 		//loading properties file
 		 FileReader file=new FileReader(".//src//test//resources//config.properties");

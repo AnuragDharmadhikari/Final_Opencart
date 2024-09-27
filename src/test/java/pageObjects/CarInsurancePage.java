@@ -52,16 +52,16 @@ public class CarInsurancePage extends BasePage{
 		clickHere.click();
 	}
 	
-	public void Search_City_Rto() {
-		City_Rto_searchbar.sendKeys("Pune");
+	public void Search_City_Rto(String RTO_City) {
+		City_Rto_searchbar.sendKeys(RTO_City);
 	}
 	
 	public void click_RTO_Option() {
 		dropdown_RTO_Options.click();
 	}
 	
-	public void carSearch() {
-		car_searchbar.sendKeys("Honda");
+	public void carSearch(String CarBrand) {
+		car_searchbar.sendKeys(CarBrand);
 	}
 	
 	public void clickcarOptions() {
@@ -72,22 +72,22 @@ public class CarInsurancePage extends BasePage{
 		select_fuleType.click();
 	}
 	
-	public void car_varient() {
-		carvarient_SearchBox.sendKeys("2.3 VTi AUTO TRANSMISSION (2254 cc)");
+	public void car_varient(String Car_Varient) {
+		carvarient_SearchBox.sendKeys(Car_Varient);//"2.3 VTi AUTO TRANSMISSION (2254 cc)"
 	}
 	
 	public void clk_CarVarient() {
 		clickCarVarient.click();
 	}
 	
-	public void send_name() {
-		name_Bar.sendKeys("@");
+	public void send_name(String Name) {
+		name_Bar.sendKeys(Name);
 	}
 	
 	
 	
-	public void enter_mobileNo() {
-		mobile_bar.sendKeys("Anurag");
+	public void enter_mobileNo(String MobileNo) {
+		mobile_bar.sendKeys(MobileNo);
 	}
 	
 

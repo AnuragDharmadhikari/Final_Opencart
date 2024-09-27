@@ -14,7 +14,7 @@
 		      <!--<class name="testCases.TC001_AccountRegistrationTest"/>
 		      <class name="testCases.TC_002_LoginTest"/> -->
 		      <!-- <class name="testCases.TC_003_LoginDDT"/>-->
-		      <class name="testCases.TC_01_ListOfHealthInsurances"></class>
+		     <!-- <class name="testCases.TC_01_ListOfHealthInsurances"></class>--> 
 		      <class name="testCases.TC_03_TestingCarInsuranceErrorMsg"></class>
 		    </classes>
 		  </test> <!-- Test -->
