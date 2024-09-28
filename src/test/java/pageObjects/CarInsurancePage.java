@@ -55,6 +55,7 @@ public class CarInsurancePage extends BasePage {
 	WebElement FindPlanBtn;
 
 	public void clickHereBtn() {
+		wait.until(ExpectedConditions.elementToBeClickable(clickHere));
 		clickHere.click();
 	}
 
@@ -64,6 +65,7 @@ public class CarInsurancePage extends BasePage {
 	}
 
 	public void click_RTO_Option() {
+		wait.until(ExpectedConditions.elementToBeClickable(dropdown_RTO_Options));
 		dropdown_RTO_Options.click();
 	}
 
@@ -73,10 +75,12 @@ public class CarInsurancePage extends BasePage {
 	}
 
 	public void clickcarOptions() {
+		wait.until(ExpectedConditions.elementToBeClickable(car_search_options));
 		car_search_options.click();
 	}
 
 	public void click_fuelType() {
+		wait.until(ExpectedConditions.elementToBeClickable(select_fuleType));
 		select_fuleType.click();
 	}
 
@@ -86,6 +90,7 @@ public class CarInsurancePage extends BasePage {
 	}
 
 	public void clk_CarVarient() {
+		wait.until(ExpectedConditions.elementToBeClickable(clickCarVarient));
 		clickCarVarient.click();
 	}
 
