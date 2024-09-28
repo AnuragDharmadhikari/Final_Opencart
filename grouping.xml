@@ -8,20 +8,19 @@
 			<!-- <exclude name=""></exclude> -->
 		</run>
 	</groups>
-	
-		<listeners>
-			<listener class-name="utilities.ExtentReportManager"/>
-		</listeners>
-		
-  <test thread-count="5" name="Test">
-	
-	<parameter name="os" value="Windows" />
-  	<parameter name="browser"  value="chrome"/>
-    <classes>
-      <!-- <class name="testCases.TC001_AccountRegistrationTest"/>
-      <class name="testCases.TC_002_LoginTest"/>-->
-      <!-- <class name="testCases.TC_003_LoginDDT"/>-->
-      <class name="testCases.TC_01_ListOfHealthInsurances"></class>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+
+	<test thread-count="5" name="Test">
+
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="testCases.TC_01_ListOfHealthInsurances"></class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
