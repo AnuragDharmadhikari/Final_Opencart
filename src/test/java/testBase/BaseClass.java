@@ -39,11 +39,7 @@ public class BaseClass {
 	@BeforeClass(groups = { "Master", "Sanity", "Regression", "datadriven" })
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String br) throws IOException {
-
-//		//Adding chrome options
-//		
-//		ChromeOptions opt = new ChromeOptions();
-//		opt.addArguments("--disable-blink-features=AutomationControlled");
+		
 
 		// loading properties file
 		FileReader file = new FileReader(".//src//test//resources//config.properties");
@@ -113,6 +109,7 @@ public class BaseClass {
 
 		driver.get(p.getProperty("projURL"));
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
 	@AfterClass(groups = { "Master", "Sanity", "Regression", "datadriven" })
