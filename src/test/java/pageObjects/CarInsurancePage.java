@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CarInsurancePage extends BasePage {
 	
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
 
 	public CarInsurancePage(WebDriver driver) {
 		super(driver);
@@ -55,51 +55,61 @@ public class CarInsurancePage extends BasePage {
 	WebElement FindPlanBtn;
 
 	public void clickHereBtn() {
+		wait.until(ExpectedConditions.visibilityOf(clickHere));
 		wait.until(ExpectedConditions.elementToBeClickable(clickHere));
 		clickHere.click();
 	}
 
 	public void Search_City_Rto(String RTO_City) {
+		wait.until(ExpectedConditions.visibilityOf(City_Rto_searchbar));
 		wait.until(ExpectedConditions.elementToBeClickable(City_Rto_searchbar));
 		City_Rto_searchbar.sendKeys(RTO_City);
 	}
 
 	public void click_RTO_Option() {
+		wait.until(ExpectedConditions.visibilityOf(dropdown_RTO_Options));
 		wait.until(ExpectedConditions.elementToBeClickable(dropdown_RTO_Options));
 		dropdown_RTO_Options.click();
 	}
 
 	public void carSearch(String CarBrand) {
+		wait.until(ExpectedConditions.visibilityOf(car_searchbar));
 		wait.until(ExpectedConditions.elementToBeClickable(car_searchbar));
 		car_searchbar.sendKeys(CarBrand);
 	}
 
 	public void clickcarOptions() {
+		wait.until(ExpectedConditions.visibilityOf(car_search_options));
 		wait.until(ExpectedConditions.elementToBeClickable(car_search_options));
 		car_search_options.click();
 	}
 
 	public void click_fuelType() {
+		wait.until(ExpectedConditions.visibilityOf(select_fuleType));
 		wait.until(ExpectedConditions.elementToBeClickable(select_fuleType));
 		select_fuleType.click();
 	}
 
 	public void car_varient(String Car_Varient) {
+		wait.until(ExpectedConditions.visibilityOf(carvarient_SearchBox));
 		wait.until(ExpectedConditions.elementToBeClickable(carvarient_SearchBox));
 		carvarient_SearchBox.sendKeys(Car_Varient);// "2.3 VTi AUTO TRANSMISSION (2254 cc)"
 	}
 
 	public void clk_CarVarient() {
+		wait.until(ExpectedConditions.visibilityOf(clickCarVarient));
 		wait.until(ExpectedConditions.elementToBeClickable(clickCarVarient));
 		clickCarVarient.click();
 	}
 
 	public void send_name(String Name) {
+		wait.until(ExpectedConditions.visibilityOf(name_Bar));
 		wait.until(ExpectedConditions.elementToBeClickable(name_Bar));
 		name_Bar.sendKeys(Name);
 	}
 
 	public void enter_mobileNo(String MobileNo) {
+		wait.until(ExpectedConditions.visibilityOf(mobile_bar));
 		wait.until(ExpectedConditions.elementToBeClickable(mobile_bar));
 		mobile_bar.sendKeys(MobileNo);
 	}

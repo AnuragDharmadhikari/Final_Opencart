@@ -256,3 +256,23 @@
 			Home insurance page 
 2024-09-28 22:47:57 INFO  TC_04_TestingHomeInsurance:39 -
 			**** Finished TC_04_TestingHomeInsurance *****
+2024-09-28 23:00:05 INFO  TC_01_ListOfHealthInsurances:14 -
+			**** Starting TC_01_ListOfHealthInsurances *****
+2024-09-28 23:00:06 INFO  TC_01_ListOfHealthInsurances:27 -
+			**** TC_01_ListOfHealthInsurances *****
+2024-09-28 23:00:18 INFO  TC_03_TestingCarInsuranceErrorMsg:14 -
+			**** TC_03_TestingCarInsuranceErrorMsg *****
+2024-09-28 23:00:18 INFO  TC_03_TestingCarInsuranceErrorMsg:17 -
+			policybazzar main page 
+2024-09-28 23:00:18 INFO  TC_03_TestingCarInsuranceErrorMsg:21 -
+			CarInsurance main page 
+2024-09-28 23:00:23 INFO  TC_03_TestingCarInsuranceErrorMsg:39 -
+			**** Finished TC_03_TestingCarInsuranceErrorMsg *****
+2024-09-28 23:00:33 INFO  TC_04_TestingHomeInsurance:15 -
+			**** Started TC_04_TestingHomeInsurance *****
+2024-09-28 23:00:33 INFO  TC_04_TestingHomeInsurance:18 -
+			policybazzar main page 
+2024-09-28 23:00:35 INFO  TC_04_TestingHomeInsurance:23 -
+			Home insurance page 
+2024-09-28 23:00:40 INFO  TC_04_TestingHomeInsurance:39 -
+			**** Finished TC_04_TestingHomeInsurance *****
