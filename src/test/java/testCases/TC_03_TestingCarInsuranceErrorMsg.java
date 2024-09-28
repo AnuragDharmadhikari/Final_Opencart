@@ -7,20 +7,20 @@ import pageObjects.CarInsurancePage;
 import pageObjects.Policybazzar_mainpg;
 import testBase.BaseClass;
 
-public class TC_03_TestingCarInsuranceErrorMsg extends BaseClass{
+public class TC_03_TestingCarInsuranceErrorMsg extends BaseClass {
 
 	@Test
 	public void checkErrMsg() {
 		logger.info("**** TC_03_TestingCarInsuranceErrorMsg *****");
-		
+
 		try {
 			logger.info("policybazzar main page ");
 			Policybazzar_mainpg pg = new Policybazzar_mainpg(driver);
 			pg.carInsuranceBtnClick();
-			
+
 			logger.info("CarInsurance main page ");
 			CarInsurancePage car = new CarInsurancePage(driver);
-			
+
 			car.clickHereBtn();
 			car.Search_City_Rto(p.getProperty("RTO_City"));
 			car.click_RTO_Option();
@@ -37,6 +37,6 @@ public class TC_03_TestingCarInsuranceErrorMsg extends BaseClass{
 		}
 
 		logger.info("**** Finished TC_03_TestingCarInsuranceErrorMsg *****");
-		
+
 	}
-} 
+}
