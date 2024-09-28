@@ -2,12 +2,15 @@ package pageObjects;
 
 import java.util.List;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 public class Policybazzar_mainpg extends BasePage {
+
+	JavascriptExecutor js = (JavascriptExecutor) driver;
 
 	public Policybazzar_mainpg(WebDriver driver) {
 		super(driver);
@@ -21,6 +24,9 @@ public class Policybazzar_mainpg extends BasePage {
 
 	@FindBy(xpath = "//div[@class='prd-block car']//div[@class='shadowHandlerBox']")
 	WebElement carInsuranceBtn;
+
+	@FindBy(xpath = "//div[@class='ruby-col-3']//span[@itemprop='name'][normalize-space()='Home Insurance']")
+	WebElement clickHomeIns;
 
 	public void hover_over() {
 		Actions act = new Actions(driver);
@@ -36,6 +42,12 @@ public class Policybazzar_mainpg extends BasePage {
 
 	public void carInsuranceBtnClick() {
 		carInsuranceBtn.click();
+	}
+
+	public void clickHomeIns() {
+		js.executeScript("arguments[0].click();", clickHomeIns);
+//		clickHomeIns.click();	
+
 	}
 
 }
