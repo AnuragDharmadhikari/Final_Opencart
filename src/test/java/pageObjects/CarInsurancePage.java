@@ -96,7 +96,6 @@ public class CarInsurancePage extends BasePage {
 
 	public void clickFindPlan() {
 		FindPlanBtn.click();
-		;
 	}
 
 }
