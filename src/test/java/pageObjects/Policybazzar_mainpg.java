@@ -13,9 +13,10 @@ public class Policybazzar_mainpg extends BasePage {
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 
 	public Policybazzar_mainpg(WebDriver driver) {
-		super(driver);
+		super(driver);//Invoking the BasePage Constructor
 	}
 
+	//Located all the webElements necessary.
 	@FindBy(xpath = "//a[normalize-space()='Insurance Products']")
 	WebElement InsuranceDrpdown;
 
@@ -28,6 +29,8 @@ public class Policybazzar_mainpg extends BasePage {
 	@FindBy(xpath = "//div[@class='ruby-col-3']//span[@itemprop='name'][normalize-space()='Home Insurance']")
 	WebElement clickHomeIns;
 
+	
+	//Added all the action methods necessary.
 	public void hover_over() {
 		Actions act = new Actions(driver);
 		act.moveToElement(InsuranceDrpdown).perform();
@@ -46,7 +49,6 @@ public class Policybazzar_mainpg extends BasePage {
 
 	public void clickHomeIns() {
 		js.executeScript("arguments[0].click();", clickHomeIns);
-//		clickHomeIns.click();	
 
 	}
 

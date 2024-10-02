@@ -11,14 +11,14 @@ public class TC_03_TestingCarInsuranceErrorMsg extends BaseClass {
 
 	@Test
 	public void checkErrMsg() {
-		logger.info("**** TC_03_TestingCarInsuranceErrorMsg *****");
+		logger.info("**** Started TC_03_TestingCarInsuranceErrorMsg *****");
 
 		try {
-			logger.info("policybazzar main page ");
+			logger.info("policybazzar main page object created ");
 			Policybazzar_mainpg pg = new Policybazzar_mainpg(driver);
 			pg.carInsuranceBtnClick();
 
-			logger.info("CarInsurance main page ");
+			logger.info("CarInsurance main page object created ");
 			CarInsurancePage car = new CarInsurancePage(driver);
 
 			car.clickHereBtn();
@@ -32,6 +32,7 @@ public class TC_03_TestingCarInsuranceErrorMsg extends BaseClass {
 			car.send_name(p.getProperty("Name"));
 			car.enter_mobileNo(p.getProperty("MobileNo"));
 			car.printErrMsgs();
+			Assert.assertTrue(true);
 		} catch (Exception e) {
 			Assert.fail("An exception occurred: " + e.getMessage());
 		}

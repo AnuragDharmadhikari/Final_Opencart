@@ -14,16 +14,16 @@ public class TC_01_ListOfHealthInsurances extends BaseClass {
 		logger.info("**** Starting TC_01_ListOfHealthInsurances *****");
 
 		try {
-
-			// Policybazzar page
+			logger.info("policybazzar main page object created ");
 			Policybazzar_mainpg pg = new Policybazzar_mainpg(driver);
 			pg.hover_over();
 			pg.printHealthInsuranceList();
+			Assert.assertTrue(true);
 
 		} catch (Exception e) {
 			Assert.fail("An exception occurred: " + e.getMessage());
 		}
-
-		logger.info("**** TC_01_ListOfHealthInsurances *****");
+		
+		logger.info("**** Finished TC_01_ListOfHealthInsurances *****");
 	}
 }

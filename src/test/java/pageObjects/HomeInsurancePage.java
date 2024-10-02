@@ -15,9 +15,10 @@ public class HomeInsurancePage extends BasePage {
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 
 	public HomeInsurancePage(WebDriver driver) {
-		super(driver);
+		super(driver);//Invoking the BasePage Constructor
 	}
 
+	//Located all the webElements necessary.
 	@FindBy(xpath = "//input[@id='homename_hi']")
 	WebElement name;
 
@@ -45,6 +46,8 @@ public class HomeInsurancePage extends BasePage {
 	@FindBy(xpath = "//div[@class=' insurers-plan']")
 	List<WebElement> insurersPlans;
 
+	
+	//Added all the action methods necessary.
 	public void enterName() {
 		name.sendKeys("Ram");
 	}

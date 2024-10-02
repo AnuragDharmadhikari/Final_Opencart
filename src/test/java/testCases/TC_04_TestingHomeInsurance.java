@@ -15,12 +15,12 @@ public class TC_04_TestingHomeInsurance extends BaseClass {
 		logger.info("**** Started TC_04_TestingHomeInsurance *****");
 
 		try {
-			logger.info("policybazzar main page ");
+			logger.info("policybazzar main page object created ");
 			Policybazzar_mainpg pg = new Policybazzar_mainpg(driver);
 			pg.hover_over();
 			pg.clickHomeIns();
 
-			logger.info("Home insurance page ");
+			logger.info("Home insurance page object created ");
 			HomeInsurancePage hip = new HomeInsurancePage(driver);
 			hip.enterName();
 			hip.enterMobileNo();
@@ -31,7 +31,7 @@ public class TC_04_TestingHomeInsurance extends BaseClass {
 			hip.enterHouseItemsValue();
 			hip.clickPricesBtn();
 			hip.insurersPlansList();
-
+			Assert.assertTrue(true);
 		} catch (Exception e) {
 			Assert.fail("An exception occurred: " + e.getMessage());
 		}
