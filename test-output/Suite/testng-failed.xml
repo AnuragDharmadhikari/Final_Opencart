@@ -8,20 +8,6 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_04_TestingHomeInsurance">
-        <methods>
-          <include name="tearDown"/>
-          <include name="retrunHomeInsurancePolicy"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_04_TestingHomeInsurance -->
-      <class name="testCases.TC_01_ListOfHealthInsurances">
-        <methods>
-          <include name="tearDown"/>
-          <include name="HealthInsListPrint"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_01_ListOfHealthInsurances -->
       <class name="testCases.TC_03_TestingCarInsuranceErrorMsg">
         <methods>
           <include name="tearDown"/>

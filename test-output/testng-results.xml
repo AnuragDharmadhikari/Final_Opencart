@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-28T22:03:15 IST" name="Suite" finished-at="2024-09-28T22:04:16 IST" duration-ms="60517">
+  <suite started-at="2024-10-04T10:43:21 IST" name="Suite" finished-at="2024-10-04T10:44:37 IST" duration-ms="75512">
     <groups>
     </groups>
-    <test started-at="2024-09-28T22:03:15 IST" name="Test" finished-at="2024-09-28T22:04:16 IST" duration-ms="60517">
+    <test started-at="2024-10-04T10:43:21 IST" name="Test" finished-at="2024-10-04T10:44:37 IST" duration-ms="75512">
       <class name="testCases.TC_04_TestingHomeInsurance">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_04_TestingHomeInsurance@6d3a388c]" started-at="2024-09-28T22:03:52 IST" name="setup" finished-at="2024-09-28T22:04:02 IST" duration-ms="10043" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_04_TestingHomeInsurance@50ad3bc1]" started-at="2024-10-04T10:43:40 IST" name="setup" finished-at="2024-10-04T10:43:52 IST" duration-ms="12066" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,17 +23,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="retrunHomeInsurancePolicy()[pri:0, instance:testCases.TC_04_TestingHomeInsurance@6d3a388c]" started-at="2024-09-28T22:04:02 IST" name="retrunHomeInsurancePolicy" finished-at="2024-09-28T22:04:12 IST" duration-ms="10492" status="PASS">
+        <test-method signature="retrunHomeInsurancePolicy()[pri:0, instance:testCases.TC_04_TestingHomeInsurance@50ad3bc1]" started-at="2024-10-04T10:43:52 IST" name="retrunHomeInsurancePolicy" finished-at="2024-10-04T10:44:07 IST" duration-ms="15283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- retrunHomeInsurancePolicy -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_04_TestingHomeInsurance@6d3a388c]" started-at="2024-09-28T22:04:12 IST" name="tearDown" finished-at="2024-09-28T22:04:16 IST" duration-ms="3364" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_04_TestingHomeInsurance@50ad3bc1]" started-at="2024-10-04T10:44:07 IST" name="tearDown" finished-at="2024-10-04T10:44:12 IST" duration-ms="4761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_04_TestingHomeInsurance -->
       <class name="testCases.TC_03_TestingCarInsuranceErrorMsg">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@223aa2f7]" started-at="2024-09-28T22:03:32 IST" name="setup" finished-at="2024-09-28T22:03:42 IST" duration-ms="9812" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@223aa2f7]" started-at="2024-10-04T10:44:12 IST" name="setup" finished-at="2024-10-04T10:44:23 IST" duration-ms="11488" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,17 +49,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkErrMsg()[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@223aa2f7]" started-at="2024-09-28T22:03:42 IST" name="checkErrMsg" finished-at="2024-09-28T22:03:48 IST" duration-ms="6978" status="PASS">
+        <test-method signature="checkErrMsg()[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@223aa2f7]" started-at="2024-10-04T10:44:23 IST" name="checkErrMsg" finished-at="2024-10-04T10:44:33 IST" duration-ms="9646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkErrMsg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@223aa2f7]" started-at="2024-09-28T22:03:48 IST" name="tearDown" finished-at="2024-09-28T22:03:52 IST" duration-ms="3125" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_03_TestingCarInsuranceErrorMsg@223aa2f7]" started-at="2024-10-04T10:44:33 IST" name="tearDown" finished-at="2024-10-04T10:44:37 IST" duration-ms="3421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_03_TestingCarInsuranceErrorMsg -->
       <class name="testCases.TC_01_ListOfHealthInsurances">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_01_ListOfHealthInsurances@5f9b2141]" started-at="2024-09-28T22:03:15 IST" name="setup" finished-at="2024-09-28T22:03:28 IST" duration-ms="12232" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_01_ListOfHealthInsurances@550ee7e5]" started-at="2024-10-04T10:43:22 IST" name="setup" finished-at="2024-10-04T10:43:36 IST" duration-ms="13951" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,11 +75,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="HealthInsListPrint()[pri:0, instance:testCases.TC_01_ListOfHealthInsurances@5f9b2141]" started-at="2024-09-28T22:03:28 IST" name="HealthInsListPrint" finished-at="2024-09-28T22:03:29 IST" duration-ms="1036" status="PASS">
+        <test-method signature="HealthInsListPrint()[pri:0, instance:testCases.TC_01_ListOfHealthInsurances@550ee7e5]" started-at="2024-10-04T10:43:36 IST" name="HealthInsListPrint" finished-at="2024-10-04T10:43:37 IST" duration-ms="1111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HealthInsListPrint -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_01_ListOfHealthInsurances@5f9b2141]" started-at="2024-09-28T22:03:29 IST" name="tearDown" finished-at="2024-09-28T22:03:32 IST" duration-ms="2993" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_01_ListOfHealthInsurances@550ee7e5]" started-at="2024-10-04T10:43:37 IST" name="tearDown" finished-at="2024-10-04T10:43:40 IST" duration-ms="3078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

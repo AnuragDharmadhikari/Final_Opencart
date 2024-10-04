@@ -131,6 +131,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">testCases.TC_03_TestingCarInsuranceErrorMsg</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkErrMsg">
+                  </a> <!-- checkErrMsg -->
+                  <span class="method-name">checkErrMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">testCases.TC_04_TestingHomeInsurance</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -158,21 +173,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC_03_TestingCarInsuranceErrorMsg</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkErrMsg">
-                  </a> <!-- checkErrMsg -->
-                  <span class="method-name">checkErrMsg</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -191,8 +191,8 @@
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TC_01_ListOfHealthInsurances&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_03_TestingCarInsuranceErrorMsg&quot;/&gt;
       &lt;class name=&quot;testCases.TC_04_TestingHomeInsurance&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_03_TestingCarInsuranceErrorMsg&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -236,20 +236,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'retrunHomeInsurancePolicy')
 data.setCell(0, 2, 'testCases.TC_04_TestingHomeInsurance')
-data.setCell(0, 3, 10492);
+data.setCell(0, 3, 15283);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'checkErrMsg')
 data.setCell(1, 2, 'testCases.TC_03_TestingCarInsuranceErrorMsg')
-data.setCell(1, 3, 6978);
+data.setCell(1, 3, 9646);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'HealthInsListPrint')
 data.setCell(2, 2, 'testCases.TC_01_ListOfHealthInsurances')
-data.setCell(2, 3, 1036);
+data.setCell(2, 3, 1111);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -282,41 +282,41 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">HealthInsListPrint</span>
-                <span class="method-start">12265 ms</span>
+                <span class="method-start">13986 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">13339 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_03_TestingCarInsuranceErrorMsg</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">16337 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">checkErrMsg</span>
-                <span class="method-start">26150 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">33132 ms</span>
+                <span class="method-start">15131 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_04_TestingHomeInsurance</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
-                <span class="method-start">36258 ms</span>
+                <span class="method-start">18212 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">retrunHomeInsurancePolicy</span>
-                <span class="method-start">46303 ms</span>
+                <span class="method-start">30279 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">56797 ms</span>
+                <span class="method-start">45569 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_03_TestingCarInsuranceErrorMsg</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">50332 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkErrMsg</span>
+                <span class="method-start">61822 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71471 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

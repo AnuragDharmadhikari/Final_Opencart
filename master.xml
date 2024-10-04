@@ -11,10 +11,10 @@
 		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="chrome" />
 		<classes>
-
+			
 			<class name="testCases.TC_01_ListOfHealthInsurances"></class>
+			<class name="testCases.TC_04_TestingHomeInsurance"></class>
 			<class name="testCases.TC_03_TestingCarInsuranceErrorMsg"></class>
-			<class name="testCases.TC_04_TestingHomeInsurance"></class> 
 
 		</classes>
 	</test> <!--
